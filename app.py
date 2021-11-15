@@ -154,7 +154,7 @@ def event_handle(event):
         elif msg =="ฝนตกมั้ย" :
             replyObj = TextSendMessage(text="ไม่ตกครับ")
         elif msg =="อากาศดีจัง" :
-            replyObj = TextSendMessage(text="ใช่ๆๆ")
+            replyObj = TextSendMessage(text="ใช่ๆ")
         else :
             replyObj = TextSendMessage(text=msg)
         line_bot_api.reply_message(rtoken, replyObj)
